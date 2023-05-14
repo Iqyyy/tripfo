@@ -1,0 +1,270 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/checkfill.png
+    - assets/page-1/images/auto-group-2a4p.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/arrows-arrow-left.png
+    - assets/page-1/images/group-2.png
+    - assets/page-1/images/auto-group-ag3h.png
+    - assets/page-1/images/group-238828.png
+    - assets/page-1/images/vector-G4v.png
+    - assets/page-1/images/basic-user.png
+    - assets/page-1/images/ball-9.png
+    - assets/page-1/images/rectangle-19.png
+    - assets/page-1/images/rectangle-19-XEe.png
+    - assets/page-1/images/group-15.png
+    - assets/page-1/images/group-238820.png
+    - assets/page-1/images/locationicon.png
+    - assets/page-1/images/box-11.png
+    - assets/page-1/images/vector-qt2.png
+    - assets/page-1/images/checkfill-bMQ.png
+    - assets/page-1/images/icplay.png
+    - assets/page-1/images/rectangle-19-bg.png
+    - assets/page-1/images/group-238821.png
+    - assets/page-1/images/rectangle-20-bg.png
+    - assets/page-1/images/arrows-arrow-left-EgE.png
+    - assets/page-1/images/rectangle-5-bg-wQA.png
+    - assets/page-1/images/ball-9-B5g.png
+    - assets/page-1/images/rectangle-19-xbG.png
+    - assets/page-1/images/basic-user-Hpr.png
+    - assets/page-1/images/basic-search.png
+    - assets/page-1/images/rectangle-22.png
+    - assets/page-1/images/basic-user-ZGa.png
+    - assets/page-1/images/vector-tpe.png
+    - assets/page-1/images/checkfill-SFp.png
+    - assets/page-1/images/rectangle-21-bg.png
+    - assets/page-1/images/vector-6uU.png
+    - assets/page-1/images/group-238817.png
+    - assets/page-1/images/frame-6.png
+    - assets/page-1/images/vector-NNa.png
+    - assets/page-1/images/basic-options.png
+    - assets/page-1/images/basic-user-EUv.png
+    - assets/page-1/images/vector-P6v.png
+    - assets/page-1/images/group-8892.png
+    - assets/page-1/images/checkfill-7oc.png
+    - assets/page-1/images/vector-Uu4.png
+    - assets/page-1/images/vector-T6n.png
+    - assets/page-1/images/group-2-AG6.png
+    - assets/page-1/images/vector-j4J.png
+    - assets/page-1/images/vector-6fY.png
+    - assets/page-1/images/basic-options-4cN.png
+    - assets/page-1/images/rectangle-19-uSN.png
+    - assets/page-1/images/rectangle-19-bg-pKY.png
+    - assets/page-1/images/basic-user-uLi.png
+    - assets/page-1/images/checkfill-S5k.png
+    - assets/page-1/images/basic-user-nfQ.png
+    - assets/page-1/images/account-icon.png
+    - assets/page-1/images/vector-vWi.png
+    - assets/page-1/images/vector-mGS.png
+    - assets/page-1/images/rectangle-5-bg.png
+    - assets/page-1/images/arrows-arrow-left-9g2.png
+    - assets/page-1/images/checkfill-tNi.png
+    - assets/page-1/images/basic-search-FDG.png
+    - assets/page-1/images/arrow.png
+    - assets/page-1/images/locationicon-c3p.png
+    - assets/page-1/images/vector-JvJ.png
+    - assets/page-1/images/basic-search-XwU.png
+    - assets/page-1/images/box-11-DC2.png
+    - assets/page-1/images/locationicon-ege.png
+    - assets/page-1/images/locationicon-j5p.png
+    - assets/page-1/images/checkfill-QLN.png
+    - assets/page-1/images/locationicon-8JJ.png
+    - assets/page-1/images/vector-pPQ.png
+    - assets/page-1/images/group-238819.png
+    - assets/page-1/images/vector-4U6.png
+    - assets/page-1/images/vector-8sG.png
+    - assets/page-1/images/vector-YJi.png
+    - assets/page-1/images/google-logo.png
+    - assets/page-1/images/group-2-u4i.png
+    - assets/page-1/images/icplay-Jm4.png
+    - assets/page-1/images/rectangle-5-bg-8k6.png
+    - assets/page-1/images/auto-group-su2j.png
+    - assets/page-1/images/locationicon-Hev.png
+    - assets/page-1/images/rectangle-5-bg-cBg.png
+    - assets/page-1/images/mask-group.png
+    - assets/page-1/images/rectangle-19-bg-gw8.png
+    - assets/page-1/images/rectangle-19-gfQ.png
+    - assets/page-1/images/vector-Y1C.png
+    - assets/page-1/images/vector-Mcr.png
+    - assets/page-1/images/group-2-KJn.png
+    - assets/page-1/images/locationicon-Fre.png
+    - assets/page-1/images/locationicon-RFL.png
+    - assets/page-1/images/locationicon-BVQ.png
+    - assets/page-1/images/basic-options-tei.png
+    - assets/page-1/images/locationicon-TSv.png
+    - assets/page-1/images/rectangle-19-Fjt.png
+    - assets/page-1/images/rectangle-5-bg-k3p.png
+    - assets/page-1/images/mask-group-FVg.png
+    - assets/page-1/images/rectangle-19-d1p.png
+    - assets/page-1/images/rectangle-5-bg-de6.png
+    - assets/page-1/images/rectangle-5-bg-Pqg.png
+    - assets/page-1/images/rectangle-5-bg-Lkv.png
+    - assets/page-1/images/overlaytext-bg.png
+    - assets/page-1/images/rectangle-5-bg-rp6.png
+    - assets/page-1/images/rectangle-23.png
+    - assets/page-1/images/rectangle-5-bg-wKL.png
+    - assets/page-1/images/overlay-bg.png
+    - assets/page-1/images/rectangle-19-mDG.png
+    - assets/page-1/images/auto-group-4x9z.png
+    - assets/page-1/images/image.png
+    - assets/page-1/images/rectangle-5-bg-Vee.png
+    - assets/page-1/images/image-eox.png
+    - assets/page-1/images/rectangle-5-bg-31Q.png
+    - assets/page-1/images/rectangle-19-GdU.png
+    - assets/page-1/images/rectangle-19-mZ8.png
+    - assets/page-1/images/rectangle-5-bg-W5L.png
+    - assets/page-1/images/rectangle-5-bg-Ysx.png
+    - assets/page-1/images/rectangle-5-bg-mUJ.png
+    - assets/page-1/images/rectangle-5-bg-jPc.png
+    - assets/page-1/images/image-1-bg.png
+    - assets/page-1/images/rectangle-5-bg-puC.png
+    - assets/page-1/images/ellipse-2.png
+    - assets/page-1/images/image-1-bg-LKg.png
+    - assets/page-1/images/arrows-arrow-left-Vdp.png
+    - assets/page-1/images/image-1-bg-A6z.png
+    - assets/page-1/images/rectangle-5-bg-NeA.png
+    - assets/page-1/images/group-1.png
+    - assets/page-1/images/ellipse-3.png
+    - assets/page-1/images/pointer-.png
+    - assets/page-1/images/ellipse-6.png
+    - assets/page-1/images/ellipse-2-kCN.png
+    - assets/page-1/images/stars.png
+    - assets/page-1/images/ellipse-5.png
+    - assets/page-1/images/pulaupadardinusatenggaratimur-20211009-0736597ce96f9409318de79d7af0829561c341-1-bg.png
+    - assets/page-1/images/mask-group-XUJ.png
+    - assets/page-1/images/mask-group-m8J.png
+    - assets/page-1/images/vector-hPt.png
+    - assets/page-1/images/stars-4hU.png
+    - assets/page-1/images/stars-kKx.png
+    - assets/page-1/images/vector-4mt.png
+    - assets/page-1/images/vector-MwL.png
+    - assets/page-1/images/mask-group-hXt.png
+    - assets/page-1/images/group-1-kHC.png
+    - assets/page-1/images/pointer--cML.png
+    - assets/page-1/images/mask-group-zAA.png
+    - assets/page-1/images/vector-HLa.png
+    - assets/page-1/images/vector-s1G.png
+    - assets/page-1/images/ellipse-3-BCJ.png
+    - assets/page-1/images/mask-group-PwC.png
+    - assets/page-1/images/mask-group-aNa.png
+    - assets/page-1/images/vector-3e6.png
+    - assets/page-1/images/stars-UEr.png
+    - assets/page-1/images/ellipse-6-VAE.png
+    - assets/page-1/images/arrows-arrow-left-JJA.png
+    - assets/page-1/images/pulaupadardinusatenggaratimur-20211009-0736597ce96f9409318de79d7af0829561c341-1-bg-TQS.png
+    - assets/page-1/images/group-2-Fwt.png
+    - assets/page-1/images/arrows-arrow-left-y1x.png
+    - assets/page-1/images/ellipse-2-XLA.png
+    - assets/page-1/images/vector-iYN.png
+    - assets/page-1/images/group-2-Kkz.png
+    - assets/page-1/images/ellipse-1.png
+    - assets/page-1/images/group-32.png
+    - assets/page-1/images/group-19.png
+    - assets/page-1/images/ellipse-2-MrN.png
+    - assets/page-1/images/group-14.png
+    - assets/page-1/images/ellipse-1-BCz.png
+    - assets/page-1/images/group-17.png
+    - assets/page-1/images/group-15-Md8.png
+    - assets/page-1/images/arrows-arrow-left-7mG.png
+    - assets/page-1/images/vector-Sp6.png
+    - assets/page-1/images/mask-group-PtS.png
+    - assets/page-1/images/mask-group-jyY.png
+    - assets/page-1/images/ellipse-5-bg.png
+    - assets/page-1/images/ellipse-7-bg.png
+    - assets/page-1/images/ellipse-6-bg.png
+    - assets/page-1/images/ellipse-3-bg.png
+    - assets/page-1/images/ellipse-4-bg.png
+    - assets/page-1/images/mask-group-Kd8.png
+    - assets/page-1/images/ellipse-5-d58.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
